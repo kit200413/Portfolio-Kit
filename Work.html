@@ -483,97 +483,392 @@ nav a:hover {
             </style>
     
             <nav>
-                <a href="index.html">home</a>
+                <a href="index.html.html">home</a>
                 <a href="Contact.html">contact</a>
             </nav>
             
         </header>
         <main>
-      
-        <a href="#" class="socialContainer containerTwo">
-          <svg class="socialSvg twitterSvg" viewBox="0 0 16 16">
-            <path
-              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-            ></path>
-          </svg>
-        </a>
-      
-        <a href="#" class="socialContainer containerThree">
-          <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512">
-            <path
-              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-            ></path>
-          </svg>
-        </a>
-      
-        <a href="#" class="socialContainer containerFour">
-          <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16">
-            <path
-              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
-            ></path>
-          </svg>
-        </a>
-      </div>
+            
 </head>
 <body>
-    <h1>My Work</h1>
-    <div class="portfolio">
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/Photocomm Poster Design.png" alt="Work 1">
-            <div class="details">
-                <h3>POSTER DESIGN</h3>
-                <p>Creating a poster for using adobe photoshop and adobe illustrator.</p>
+    <div class="work-showcase">
+        <h1 class="work-title">My Work Showcase</h1>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/Headphone.png" alt="Poster Design" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>3D MODELING</h2>
+                            <p>Creating 3D models using MAYA, adding textures and lighting to bring designs to life.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/Morbius.png" alt="Work 2">
-            <div class="details">
-                <h3>WEB DESIGN</h3>
-                <p>Me and my team were designing a gaming website with cool features using adobe XD.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/Morbius.png" alt="Web Design" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>GAMING WEBSITE DESIGN</h2>
+                            <p>Collaborated with a team to design an immersive gaming website using Adobe XD, featuring innovative UI/UX elements and interactive features.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/Illustrators.png" alt="Work 3">
-            <div class="details">
-                <h3>CREATING LOGO</h3>
-                <p>Creating a logo for client using adobe photoshop and illustrator.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/Illustrators.png" alt="Logo Design" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>BRAND IDENTITY & LOGO DESIGN</h2>
+                            <p>Creating distinctive brand identities through custom logo designs using Adobe Creative Suite, helping clients establish their visual presence.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/KL Tower.jpg" alt="Work 4">
-            <div class="details">
-                <h3>TAKING PHOTOS FOR COMPOSITIONS</h3>
-                <p>Taking a lot of pictures in KL for different compositions, this one is framing.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/KL Tower.jpg" alt="Photography" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>ARCHITECTURAL PHOTOGRAPHY</h2>
+                            <p>Capturing the essence of KL's iconic landmarks through creative framing and composition techniques.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/VCS.png" alt="Work 5">
-            <div class="details">
-                <h3>DEVELOP A RESPONSIVE WEBSITE</h3>
-                <p>Creating a responsive website using Visual Studio Code.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/VCS.png" alt="Web Development" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>RESPONSIVE WEB DEVELOPMENT</h2>
+                            <p>Building modern, responsive websites using Visual Studio Code with focus on performance and user experience.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/UE.png" alt="Work 6">
-            <div class="details">
-                <h3>CREATING A GAME</h3>
-                <p>Create and designing a game using Unreal Engine 5.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/UE.png" alt="Game Development" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>GAME DEVELOPMENT</h2>
+                            <p>Designing and developing immersive gaming experiences using Unreal Engine 5, pushing creative boundaries in interactive entertainment.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/Screenshot (145).png" alt="Work 6">
-            <div class="details">
-                <h3>PROMOTING A BUSINESS ACCOUNT HAMADA TRAVEL</h3>
-                <p>Create content to promote a client's business account on social media such as Tiktok and Instagram.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/Screenshot (145).png" alt="Social Media Marketing" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>HAMADA TRAVEL SOCIAL MEDIA</h2>
+                            <p>Strategic content creation and social media management for Hamada Travel across TikTok and Instagram platforms.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="work-item">
-            <img src="PORTFOLIO IMG/Screenshot (146).png" alt="Work 6">
-            <div class="details">
-                <h3>PROMOTING A BUSINESS ACCOUNT RAISYA COOKIES</h3>
-                <p>Create content to promote a client's business account on social media such as Tiktok and Instagram.</p>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="PORTFOLIO IMG/Screenshot (146).png" alt="Social Media Marketing" onclick="openFullscreen(this)">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h2>RAISYA COOKIES SOCIAL MEDIA</h2>
+                            <p>Engaging content creation and social media strategy for Raisya Cookies, driving brand awareness and customer engagement.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .work-showcase {
+            padding: 80px 40px;
+            max-width: 1800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .work-title {
+            text-align: center;
+            font-size: 4.5em;
+            margin-bottom: 70px;
+            background: linear-gradient(45deg, #6b5bff, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+            letter-spacing: 2px;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+            padding: 30px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .portfolio-image {
+            position: relative;
+            aspect-ratio: 16/10;
+            transition: all 0.5s ease;
+        }
+
+        .portfolio-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            cursor: pointer;
+        }
+
+        .fullscreen-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fullscreen-overlay.active {
+            display: flex;
+        }
+
+        .fullscreen-image {
+            max-width: 90%;
+            max-height: 90vh;
+            object-fit: contain;
+        }
+
+        .close-fullscreen {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 10px;
+            z-index: 10000;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95));
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-content {
+            color: white;
+            text-align: center;
+            transform: translateY(20px);
+            transition: all 0.4s ease;
+            max-width: 800px;
+        }
+
+        .portfolio-item:hover .portfolio-content {
+            transform: translateY(0);
+        }
+
+        .portfolio-content h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .portfolio-content p {
+            font-size: 1.5em;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .portfolio-content h2 {
+                font-size: 1.8em;
+            }
+
+            .portfolio-content p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+        <img class="fullscreen-image" id="fullscreenImage" src="" alt="">
+        <button class="close-fullscreen" onclick="closeFullscreen()">×</button>
+    </div>
+
+    <script>
+        function openFullscreen(img) {
+            const overlay = document.getElementById('fullscreenOverlay');
+            const fullscreenImg = document.getElementById('fullscreenImage');
+            fullscreenImg.src = img.src;
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Stop propagation to prevent immediate closing
+            overlay.onclick = function(e) {
+                if (e.target === overlay) {
+                    closeFullscreen();
+                }
+            };
+        }
+
+        function closeFullscreen() {
+            const overlay = document.getElementById('fullscreenOverlay');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Add keyboard support for closing with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeFullscreen();
+            }
+        });
+    </script>
 </body>
 </html>
+
+
+</body>
+<footer>
+    <div class="footer-brand">
+        <h1>Arif Hakimi</h1>
+        <p>Empowering creativity through design and innovation.</p>
+    </div>
+    <div class="footer-nav">
+        <h3>Quick Links</h3>
+        <a href="PORTFOLIO ARIF.html">Work</a>
+        <a href="Contact.html">Contact</a>
+        <a href="#portfolio">Portfolio</a>
+    </div>
+   
+    <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>Email: arif.hakimi200413@gmail.com</p>
+        <p>Phone: +60 11 6139 7822</p>
+    </div>
+</footer>
+<div class="footer-bottom">
+    &copy; 2025 Arif Hakimi. All rights reserved.
+</div>
+
+<style>
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.footer-brand {
+    text-align: center;
+}
+
+.footer-brand h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.footer-brand p {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.footer-nav {
+    text-align: center;
+}
+
+.footer-nav h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #00bcd4;
+}
+.footer-contact {
+    text-align: center;
+}
+
+.footer-contact h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-contact p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #bbb;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #bbb;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+    </style>
