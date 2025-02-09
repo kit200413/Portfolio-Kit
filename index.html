@@ -117,6 +117,30 @@
             .dark-mode .experience-content::before {
                 background-color: #ffffff;
             }
+
+            .dark-mode .skills {
+                background: rgba(45, 45, 45, 0.9);
+                color: #ffffff;
+            }
+
+            .dark-mode .skills h1 {
+                background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .dark-mode .skills-subtitle {
+                color: #bbb;
+            }
+
+            .dark-mode .skill-card {
+                background: rgba(45, 45, 45, 0.9);
+                box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            }
+
+            .dark-mode .skill-content h3 {
+                color: #ffffff;
+            }
         </style>
 
         <nav>
@@ -432,51 +456,155 @@
     </style>
 </section>
 
-<section class="skills">
-    <h1>Skills</h1>
+    <section class="skills">
+    <h1>Skills & Expertise</h1>
+    <p class="skills-subtitle">Technologies and tools I work with</p>
 </section>
 
 <div class="cards-container">
-  <div class="card">
-    <div class="card-image">
-      <img src="PORTFOLIO IMG/premiere-pro-1.png"Skill Image">
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/premiere-pro-1.png" alt="Adobe Premiere Pro">
+      <div class="glow-effect"></div>
     </div>
-    <div class="card-details">
-      <p class="text-title">ADOBE PREMIERE PRO</p>
-      <p class="text-body">LEVEL BEGINNER.</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="PORTFOLIO IMG/illustrator.png" alt="Skill Image">
-    </div>
-    <div class="card-details">
-      <p class="text-title">ADOBE ILLUSTRATOR</p>
-      <p class="text-body">LEVEL BEGINNER.</p>
+    <div class="skill-content">
+      <h3>Adobe Premiere Pro</h3>
+      <p>Professional Video Editing</p>
+      <div class="skill-level">Beginner</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="40">
+          <span class="meter-number">40%</span>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-image">
-      <img src="PORTFOLIO IMG/Unreal-Engine.webp" alt="Skill Image">
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/illustrator.png" alt="Adobe Illustrator">
+      <div class="glow-effect"></div>
     </div>
-    <div class="card-details">
-      <p class="text-title">UNREAL ENGINE 5</p>
-      <p class="text-body">LEVEL INTERMEDIATE.</p>
+    <div class="skill-content">
+      <h3>Adobe Illustrator</h3>
+      <p>Vector Graphics & Brand Design</p>
+      <div class="skill-level">Beginner</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="40">
+          <span class="meter-number">40%</span>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-image">
-      <img src="PORTFOLIO IMG/VisualStudioLogo.png" alt="Skill Image">
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/Unreal-Engine.webp" alt="Unreal Engine">
+      <div class="glow-effect"></div>
     </div>
-    <div class="card-details">
-      <p class="text-title">VISUAL STUDIO CODE</p>
-      <p class="text-body">LEVEL INTERMEDIATE.</p>
+    <div class="skill-content">
+      <h3>Unreal Engine 5</h3>
+      <p>Game Development & 3D Visualization</p>
+      <div class="skill-level">Intermediate</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="70">
+          <span class="meter-number">70%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/VisualStudioLogo.png" alt="VS Code">
+      <div class="glow-effect"></div>
+    </div>
+    <div class="skill-content">
+      <h3>VS Code</h3>
+      <p>Web Development & Coding</p>
+      <div class="skill-level">Intermediate</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="70">
+          <span class="meter-number">70%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/xd.png" alt="Adobe XD">
+      <div class="glow-effect"></div>
+    </div>
+    <div class="skill-content">
+      <h3>Adobe XD</h3>
+      <p>UI/UX Design & Prototyping</p>
+      <div class="skill-level">Intermediate</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="70">
+          <span class="meter-number">70%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/photoshop.png" alt="Adobe Photoshop">
+      <div class="glow-effect"></div>
+    </div>
+    <div class="skill-content">
+      <h3>Adobe Photoshop</h3>
+      <p>Photo Editing & Graphic Design</p>
+      <div class="skill-level">Beginner</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="50">
+          <span class="meter-number">50%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/figma.png" alt="Figma">
+      <div class="glow-effect"></div>
+    </div>
+    <div class="skill-content">
+      <h3>Figma</h3>
+      <p>UI/UX Design & Prototyping</p>
+      <div class="skill-level">Intermediate</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="70">
+          <span class="meter-number">70%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="PORTFOLIO IMG/capcut.jpg" alt="Capcut">
+      <div class="glow-effect"></div>
+    </div>
+    <div class="skill-content">
+      <h3>Capcut</h3>
+      <p>Video Editing</p>
+      <div class="skill-level">Advanced</div>
+      <div class="skill-meter">
+        <div class="meter-fill" data-level="80">
+          <span class="meter-number">80%</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+<script>
+document.querySelectorAll('.meter-fill').forEach(meter => {
+    const level = meter.getAttribute('data-level');
+    meter.style.setProperty('--level', level + '%');
+});
+</script>
+</style>
 </section>
 
 <section class="experience">
